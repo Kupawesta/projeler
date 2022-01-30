@@ -1,0 +1,23 @@
+package com.Veli;
+
+public class Method {
+
+	/*
+	 * Bir sýnýf içine yazýlabilecekler
+	 * 1- Global deðiþkenler, tercihen en üste tanýmlanýr.
+	 * lokasyonunun bir önemi yoktur.
+	 */
+	static int global_int=5;
+	 /*
+	  * 2- Methodlar tanýmlanýr.
+	  */
+	public static void deneme_method() {
+		System.out.println("Denemeeee");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}

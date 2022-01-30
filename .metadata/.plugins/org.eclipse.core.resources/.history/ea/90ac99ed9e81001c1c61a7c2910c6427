@@ -1,0 +1,28 @@
+package com.Veli;
+
+import java.util.Scanner;
+
+public class Okul_Otomasyonu {
+	public int Seciniz() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Seçiniz...: ");
+		int secim = sc.nextInt();
+		return secim;
+	}
+ 	public void Ekran() {
+		System.out.println("************************");
+		System.out.println("***OKUL OTOMASYONU******");
+		System.out.println("************************");
+		System.out.println();
+		System.out.println("1- Sýnýf Tanýmlama");
+		System.out.println("2- Öðrenci Tanýmlama");
+		System.out.println("3- Öðrenci Atama");
+		System.out.println("4- Sýnýf Listesi");
+		System.out.println("5- Ders Tanýmlama");
+		System.out.println("6- Not Ekleme");
+		System.out.println("7- Not Görüntüleme");
+		System.out.println("8- Öðrenci Arama");
+		System.out.println("0- Ç I K I Þ");
+		
+	}
+}

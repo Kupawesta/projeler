@@ -1,0 +1,76 @@
+package com.Veli;
+
+import java.util.Scanner;
+
+public class Diziler_Alistirma_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+ * ****
+ * ****
+ * ****
+ * ****
+ * Ekrana Yazdýr
+ */
+	// 1. Yöntem
+		System.out.println("* * * *");
+		System.out.println("* * * *");
+		System.out.println("* * * *");
+		System.out.println("* * * *");
+		System.out.println("---------");
+		
+		//2. Yöntem
+		for(int i=0;i<4;i++)
+			System.out.println("* * * *");
+		System.out.println();
+		System.out.println("---------");
+		
+		//3. Yöntem
+		for(int i=0;i<4;i++) {
+			for (int j=0;j<4;j++) 
+				System.out.print("* ");
+			System.out.println();
+						
+		}
+		System.out.println("---------");
+		//4. Yöntem
+		for (int i=0;i<4*4;i++) {
+			System.out.print("* ");
+			if ((i+1)%4==0)
+				System.out.println();
+		}
+			
+		//Kullanýcýnýn istediði kadar yýldýz yazdýr...	Kare olsun.
+			
+		System.out.println("Kaç Yýldýz Olsun..: ");	
+		Scanner sc = new Scanner(System.in);
+		int sayi = sc.nextInt();
+		for (int i=0;i<sayi;i++) {
+			for (int j=0;j<sayi;j++)
+				System.out.print("* ");
+			System.out.println();
+		}
+			
+		/*
+		 * * * * *
+		 * *     *
+		 * *     *
+		 * * * * *
+		 * istenilen uzunlukta içi boþ kare yap	
+		 */
+		System.out.println("--------------");
+		System.out.println("Kaç tane yýldýz olsun...: ");
+		int sayi2 = sc.nextInt();
+		for (int i=1;i<sayi2+1;i++) {
+			if (i=1 || i<=sayi2) {
+				System.out.print("* ");
+				
+			}else {
+				if (i%sayi2)
+				
+			}
+		}
+	}
+
+}

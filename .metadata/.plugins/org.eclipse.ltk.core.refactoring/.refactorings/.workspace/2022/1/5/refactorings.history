@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Odevler_Alistirmalar&apos; to &apos;006-Sorular&apos;" description="Rename resource &apos;Odevler_Alistirmalar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Odevler_Alistirmalar" name="006-Sorular" stamp="1643438966013" updateReferences="true"/>
+</session>

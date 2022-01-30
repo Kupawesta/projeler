@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.Veli.If_Then_Else&apos; to &apos;If_Else&apos;&#x0D;&#x0A;- Original project: &apos;Akis_Yonlendirme&apos;&#x0D;&#x0A;- Original element: &apos;com.Veli.If_Then_Else&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Veli.If_Else&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;If_Then_Else&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.Veli{If_Then_Else.java[If_Then_Else" matchStrategy="1" name="If_Else" qualified="false" references="true" similarDeclarations="true" stamp="1642833807435" textual="false" version="1.0"/>
+</session>

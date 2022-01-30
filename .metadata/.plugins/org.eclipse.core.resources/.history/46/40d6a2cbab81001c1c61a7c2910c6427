@@ -1,0 +1,16 @@
+package com.Veli;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		//Aþaðýdaki satýr nesne türetme iþlemi
+		Okul_Otomasyonu okul = new Okul_Otomasyonu();
+		okul.Ekran();
+		okul.Seciniz();
+		
+		
+		
+
+	}//Main Sonu
+
+}//Class Sonu

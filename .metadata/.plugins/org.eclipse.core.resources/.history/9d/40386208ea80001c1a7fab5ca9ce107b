@@ -1,0 +1,19 @@
+package com.Veli;
+
+import java.util.Scanner;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1. Sayýyý giriniz...: ");
+		int s1 = sc.nextInt();
+		System.out.println("2. Sayýyý giriniz...: ");
+		int s2 = sc.nextInt();
+		int toplam = s1+s2;
+		System.out.println("toplam...: "+toplam);
+		
+	}
+
+}

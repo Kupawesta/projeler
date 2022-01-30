@@ -1,0 +1,43 @@
+package com.Veli;
+
+public class Methodlar {
+
+	/*
+	 * public -> eriþim belirteci (access Modifier)
+	 * static -> Özel keyword tür. sabit adreslivarlýklar oluþturur.
+	 * void -> Geri Dönüþ Tipi(return Type)
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EkranaYaz();
+		
+	}//main
+	// Bu method, içindeki kodlarý çalýþtýrýr. Geriye deðer çevirmez.
+	public static void EkranaYaz () {
+		System.out.println("***************************");
+		System.out.println("************MERHABA********");
+		System.out.println("***************************");
+		System.out.println();
+		System.out.println("1- Toplama");
+		System.out.println("2- Çarpma");
+		System.out.println("0- ÇIKIÞ");
+		System.out.println("");
+	}
+	
+	
+	/*
+	 * Method tanýmlama
+	 * eriþim belirteci -> opsiyoneldir. olmasa da olur
+	 * Keyword ler (static,final) -> opsiyeneldir.
+	 * geri Dönüþ türü -> zorunludur. (void yada diðer bir deðiþkentürü)
+	 * Method Adý -> sorunludur. her method için bir isim vermelisiniz.
+	 * Argüman Parantezleri -> Zorunludur, içine deðer girmek opsiyoneldir.
+	 * Method Gövdesi Süslü parantezleri -> Zorunludur. kodlar buraya yazýlýr.
+	 */
+	void ornek_1() {
+		
+	}
+	public static final double ornek_2 (String ifade, int[] dizi) {
+		return 0;
+	}
+}//class

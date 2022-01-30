@@ -1,0 +1,31 @@
+package com.Veli;
+
+public class Method_Class_ozellikleri {
+
+	/*
+	 * Bir sýnýf içine yazýlabilecekler
+	 * 1- Global deðiþkenler, tercihen en üste tanýmlanýr.
+	 * lokasyonunun bir önemi yoktur.
+	 */
+	static int global_int=5;
+	 /*
+	  * 2- Methodlar tanýmlanýr.
+	  */
+	public static void deneme_method() {
+		System.out.println("Denemeeee");
+	}
+	/*
+	 * 3- Inner/wrapper class tanýmlanabilir.
+	 */
+	class ic_sinif{
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}

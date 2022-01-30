@@ -1,0 +1,23 @@
+package com.Veli;
+
+public class Methodlar {
+
+	/*
+	 * public -> eriþim belirteci (access Modifier)
+	 * static -> Özel keyword tür. sabit adreslivarlýklar oluþturur.
+	 * void -> Geri Dönüþ Tipi(return Type)
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("***************************");
+		System.out.println("************MERHABA********");
+		System.out.println("***************************");
+		System.out.println();
+		System.out.println("1- Toplama");
+		System.out.println("2- Çarpma");
+		System.out.println("0- ÇIKIÞ");
+		System.out.println("");
+		
+	}//main
+
+}//class
